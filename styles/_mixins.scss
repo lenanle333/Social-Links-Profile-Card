@@ -1,0 +1,24 @@
+@use "sass:math";
+@function rem($px) {
+	@return math.div($px, 16) + rem;
+}
+
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin flex-h-center {
+	display: flex;
+	align-items: center;
+}
+@mixin flex-v-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin desktop {
+	@media (min-width: 1440px) {
+		@content;
+	}
+}

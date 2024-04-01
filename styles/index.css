@@ -1,0 +1,112 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  font-family: Inter, sans-serif;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+}
+
+#sub-header {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  width: 20.4375rem;
+  height: 36.1875rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main img {
+  width: 5.5rem;
+  border-radius: 50%;
+  margin: 1.5rem 0;
+}
+main #sub-header {
+  margin: 1.5rem 0;
+}
+main section {
+  display: grid;
+  row-gap: 1rem;
+}
+main section .btn {
+  width: 17.4375rem;
+  height: 2.8125rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+main section .btn:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+main section .btn:hover a {
+  color: hsl(0, 0%, 20%);
+}
+
+@media (min-width: 1440px) {
+  main {
+    height: 38.1875rem;
+    width: 24rem;
+  }
+  main img {
+    margin: 2.5rem 0 1.5rem;
+  }
+}/*# sourceMappingURL=index.css.map */

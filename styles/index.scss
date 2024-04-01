@@ -1,0 +1,77 @@
+@import "mixins";
+@import "restart";
+@import "variables";
+
+body {
+	background-color: $black-100;
+	height: 100vh;
+	font-family: Inter, sans-serif;
+	line-height: 150%;
+	@include flex-center();
+}
+h1 {
+	font-size: rem(24);
+	font-weight: 600;
+	color: $white;
+	margin-bottom: rem(4);
+}
+h2 {
+	font-size: rem(14);
+	font-weight: 700;
+	color: $primary;
+}
+#sub-header {
+	font-size: rem(14);
+	font-weight: 400;
+	color: $white;
+}
+a {
+	font-size: rem(14);
+	font-weight: 700;
+	color: $white;
+}
+main {
+	background-color: $black-200;
+	width: rem(327);
+	height: rem(579);
+	border-radius: rem(12);
+	@include flex-h-center();
+	flex-direction: column;
+
+	img {
+		width: rem(88);
+		border-radius: 50%;
+		margin: rem(24) 0;
+	}
+	#sub-header {
+		margin: rem(24) 0;
+	}
+	section {
+		display: grid;
+		row-gap: rem(16);
+		.btn {
+			width: rem(279);
+			height: rem(45);
+			background-color: $black-300;
+			border-radius: rem(8);
+			@include flex-center();
+			cursor: pointer;
+			transition: all 500ms ease;
+			&:hover {
+				background-color: $primary;
+				a {
+					color: $black-300;
+				}
+			}
+		}
+	}
+}
+@include desktop {
+	main {
+		height: rem(611);
+		width: rem(384);
+		img {
+			margin: rem(40) 0 rem(24);
+		}
+	}
+}
