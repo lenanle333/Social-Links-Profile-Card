@@ -1,12 +1,12 @@
-# [Socical Links Profile Compnent](https://social-links-component-lenanle333.vercel.app/)
+# [Socical Links Profile Card](https://social-links-component-lenanle333.vercel.app/)
 
 ## Description
 
-A simple social links component curated with HTML and Sass.
+A simple social links card curated with HTML and Sass.
 
-### Social Links Component
+### Social Links Card
 
-![Social Links Component]()
+![Social Links Card](https://github.com/lenanle333/Social-Links-Profile-Card/blob/b2f07073ff36ef7c03efd6c9766f80f24cc6a279/assets/screenshot/Social%20links%20profile%20screenshot.jpeg)
 
 ## Disclaimer
 
