@@ -1,4 +1,4 @@
-# [Socical Links Profile Card](https://social-links-component-lenanle333.vercel.app/)
+# [Socical Links Profile Card](https://social-links-card-lenanle333.vercel.app/)
 
 ## Description
 
